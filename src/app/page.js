@@ -1,4 +1,5 @@
 import About from "@/component/About"
+import Education from "@/component/Education"
 import Contact from "@/component/Contact"
 import Hero from "@/component/Hero"
 import Navbar from "@/component/Navbar"
@@ -10,6 +11,7 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
+      <Education />
       <About />
       <Skills />
       <Projects />
