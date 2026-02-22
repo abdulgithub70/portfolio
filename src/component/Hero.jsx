@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Github, Linkedin } from "lucide-react"
 
+
 export default function Hero() {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center px-6 relative overflow-hidden">
@@ -31,7 +32,11 @@ export default function Hero() {
         </p>
 
         <div className="flex justify-center gap-4">
-          <Button className="px-6">Download Resume</Button>
+          <Button asChild className="px-6">
+            <a href="/abdullah_Saifi.pdf" target="_blank" rel="noopener noreferrer">
+              Download Resume
+            </a>
+          </Button>
 
           <Button variant="outline" size="icon">
             <a href="https://github.com/abdulgithub70" target="_blank" rel="noopener noreferrer">
